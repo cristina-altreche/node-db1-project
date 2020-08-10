@@ -17,7 +17,7 @@ SELECT *
 FROM CUSTOMERS
 WHERE city 
 IN
-('London', 'Madrid', 'Brazil')
+('London', 'Madrid', 'Brazil');
 -- Add a customer record for "The Shire", the contact name is "Bilbo Baggins" the address is -"1 Hobbit-Hole" in "Bag End", postal code "111" and the country is "Middle Earth"
 INSERT INTO Customers
     (CustomerName, ContactName, Address, City, PostalCode, Country)
